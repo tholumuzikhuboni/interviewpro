@@ -24,13 +24,6 @@ export default function Navbar() {
               <Home className="h-5 w-5 text-gray-600" />
               <span className="text-gray-600">Home</span>
             </Link>
-            <Link 
-              to="/interview-prep"
-              className="flex items-center space-x-2 px-4 py-2 rounded-lg text-white bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 transition-colors"
-            >
-              <Search className="h-5 w-5" />
-              <span>Start Prep</span>
-            </Link>
           </div>
         </div>
       </div>
