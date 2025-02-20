@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 4s ease infinite;
+}
+
+.input-animated:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.4);
+  animation: borderGlow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes borderGlow {
+  from {
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.4);
+  }
+  to {
+    box-shadow: 0 0 0 4px rgba(167, 139, 250, 0.4);
+  }
+}
