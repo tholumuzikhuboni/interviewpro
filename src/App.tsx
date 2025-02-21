@@ -8,7 +8,7 @@ import InterviewPrep from './pages/InterviewPrep';
 import InterviewQuestions from './pages/InterviewQuestions';
 import EmailWriter from './pages/EmailWriter';
 import CoverLetter from './pages/CoverLetter';
-import AdSense from "./AdSense";
+import AdSense from './AdSense';
 // Scroll to top component
 function ScrollToTop() {
   const { pathname } = useLocation();
